@@ -1,0 +1,16 @@
+{
+  "name": "mert",
+  "version": "1.0.0",
+  "description": "mert",
+  "main": "index.js",
+  "scripts": {
+    "test": "mert"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.4.4",
+    "cleverbot.io": "^1.0.4",
+    "restify": "^4.3.0"
+  }
+}

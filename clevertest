@@ -1,0 +1,11 @@
+var bot = new cleverbot("0agYRpV0eTEAabyL", "a5IlKuZnWZXOPUBDsZIAiKKqA95NNcAX"); // Set up keys
+
+bot.setNick("sandbox.test"); // Set a nickname
+
+bot.create(function (err, session) { // Initialize Cleverbot
+
+	bot.ask("Just a small town girl", function (err, response) {
+		document.write(response);
+	});
+
+});
